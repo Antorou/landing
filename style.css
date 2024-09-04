@@ -1,0 +1,97 @@
+body {
+  font-family: "Overpass", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Chivo", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+}
+
+a {
+	color: #443ffc;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+a:hover {
+	color: red;
+}
+
+.banner {
+	background-image: url(images/background.jpg);
+	background-size: cover;
+	text-align: center;
+	padding: 100px 0px;
+}
+
+.banner h1 {
+	color: white;
+}
+
+.banner p {
+	color: rgba(255, 255, 255, 0.5);
+	margin-bottom: 44px;
+}
+
+.button-blue {
+	background-color: #0D1EC6;
+	padding: 8px 16px;
+	color: white;
+	border-radius: 4px;
+	transition: all 0.40s ease;
+}
+
+.banner a:hover {
+	background-color: #DD1FCC;
+}
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+.card-white {
+	background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  width: 200px;
+  text-align: center;
+  padding: 24px;
+  margin: 8px;
+}
+
+.card-white img {
+	width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px ;
+}
+
+.footer {
+	background-color: rgba(64, 64, 64);
+	padding: 24px 0px;
+	text-align: center;
+
+}
+
+.footer p {
+	color: white;
+}
+ {
+	margin-bottom: 24px;
+}
